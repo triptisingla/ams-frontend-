@@ -55,7 +55,7 @@ const Letter = () => {
                 name="from"
                 value={data.from}
                 onChange={handleChange}
-                placeholder={JSON.parse(localStorage.getItem('userData')).firstName}
+                placeholder="Sender"
                 className="border-t-0 border-l-0 border-r-0 border-b-1 w-40 p-0 text-md bg-transparent"
               />
               <input
