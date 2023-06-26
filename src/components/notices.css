@@ -1,0 +1,20 @@
+.scrolling-list {
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
